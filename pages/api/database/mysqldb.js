@@ -5,7 +5,7 @@ export default function handler(req, res) {
     host: "67.225.136.131",
     user: "admin_geneuser",
     password: "GetGeneIDmy@136!",
-    database: "admin_getgeneid",
+    database: "admin_getgeneid_panel",
   };
 
   const connection = mysql.createConnection(dbConfig);
